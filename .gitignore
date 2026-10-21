@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.bun-cache/
+
+# Build output
+dist/
+dist-cvm/
+client/dist/
+server/dist/
+
+# TypeScript build info
+*.tsbuildinfo
+.tsbuildinfo*
+
+# Local databases and data
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
